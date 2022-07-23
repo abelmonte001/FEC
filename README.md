@@ -44,4 +44,8 @@ The individual questions themselves allow for the greatest interaction within th
 
 ### Ratings & Reviews
 
-We're all excited for you to take a look at our project and can't wait to tell you more about it!
+The ratings and review section will allow users to view existing reviews, add their own, and allow focused searches based on categorization and tags on reviews.
+
+The reviews will be optained from a third party API And be received via JSON format while being stored in local memory for sorting and categorization purposes. New reviews will be sent to the source API using JSON formatting to ensure they are stored for future use.
+
+The front-end portion of the add review will be displayed in a modal component that will open with all the fields that need to be added and cosmetic effects will be added to all portions of the reviews. The system will also check for valid input in the review section.
